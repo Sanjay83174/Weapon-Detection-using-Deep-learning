@@ -1,11 +1,11 @@
 # Weapon-Detection-using-Deep-learning
-🔫 Weapon Detection Using Deep Learning
+**🔫 Weapon Detection Using Deep Learning**
 
 A simple and effective project that detects weapons (Gun / Knife) using Deep Learning and OpenCV.
 This system can be used for CCTV monitoring, safety systems, and real-time alert generation.
 
 
-📌 What This Project Does
+**📌 What This Project Does**
 
  
 ✔ Detects guns
@@ -25,36 +25,31 @@ This system can be used for CCTV monitoring, safety systems, and real-time alert
 ✔ Saves the detection frame for evidence
 
 
-📂 Project Structure
+**📂 Project Structure**
 
 Weapon-Detection-using-Deep-learning
 
 │
-
 ├── weapon detection with tkinter/
 
 │   └── weapondetectiontkinter.py       → Tkinter GUI application
-
 │
 
 ├── detect.py                            → Weapon detection through webcam/video
 
 ├── model/ or weights/                   → YOLO model files (weights/config)
-
 │
 
 ├── Images/                              → Sample images
 
 ├── Videos/                              → Sample videos
-
 │
 
 └── README.md                            → Documentation
 
 
 
-🖥️ How to Run the Project
-
+**🖥️ How to Run the Project**
 
 1️⃣ Install Required Libraries
 
@@ -80,7 +75,7 @@ python "weapon detection with tkinter/weapondetectiontkinter.py"
 
 
 
-The GUI allows you to:
+**The GUI allows you to:**
 
 ▶ Start webcam
 
@@ -93,7 +88,7 @@ The GUI allows you to:
 ▶ Receive email alerts with the detected frame
 
 
-🧠 How the Detection Works
+**🧠 How the Detection Works**
 
 🔸 Uses YOLO-based Deep Learning model
 
@@ -112,7 +107,7 @@ The GUI allows you to:
 This makes the system accurate and fast for real-time usage.
 
 
-🔊 Alert System (Sound + Email)
+**🔊 Alert System (Sound + Email)**
 
 ✔ Sound Alert
 
@@ -122,7 +117,7 @@ Helps in real-time warning for nearby staff
 
 ✔ Email Alert
 
-When a weapon is detected:
+**When a weapon is detected:**
 
 📤 An automatic email is sent
 
@@ -131,7 +126,7 @@ When a weapon is detected:
 📝 Includes a warning message
 
 
-This is useful for:
+**This is useful for:**
 
 Schools
 
@@ -144,7 +139,7 @@ Security rooms
 Remote monitoring
 
 
-📸 Example Output
+**📸 Example Output**
 
 ✔ Weapon detected → highlighted with red box
 
@@ -155,7 +150,7 @@ Remote monitoring
 ✔ Frame saved for evidence
 
 
-🛠️ Requirements
+**🛠️ Requirements**
 
 Python 3
 
@@ -174,7 +169,7 @@ Install pygame if missing:
 pip install pygame
 
 
-🎯 Why This Project Is Useful
+**🎯 Why This Project Is Useful**
 
 ✔ Real-time monitoring & surveillance
 
@@ -187,6 +182,6 @@ pip install pygame
 ✔ Perfect for academic projects and demonstrations
 
 
-📄 License
+**📄 License**
 
 This project is open for learning, development, and improvements.
