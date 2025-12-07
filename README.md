@@ -4,8 +4,10 @@
 A simple and effective project that detects weapons (Gun / Knife) using Deep Learning and OpenCV.
 This system can be used for CCTV monitoring, safety systems, and real-time alert generation.
 
+
 📌 What This Project Does
 
+ 
 ✔ Detects guns
 
 ✔ Detects knives
@@ -22,22 +24,40 @@ This system can be used for CCTV monitoring, safety systems, and real-time alert
 
 ✔ Saves the detection frame for evidence
 
+
 📂 Project Structure
+
 Weapon-Detection-using-Deep-learning
+
 │
+
 ├── weapon detection with tkinter/
+
 │   └── weapondetectiontkinter.py       → Tkinter GUI application
+
 │
+
 ├── detect.py                            → Weapon detection through webcam/video
+
 ├── model/ or weights/                   → YOLO model files (weights/config)
+
 │
+
 ├── Images/                              → Sample images
+
 ├── Videos/                              → Sample videos
+
 │
+
 └── README.md                            → Documentation
 
+
+
 🖥️ How to Run the Project
+
+
 1️⃣ Install Required Libraries
+
 pip install opencv-python numpy pygame
 
 
@@ -55,7 +75,9 @@ Run using a video file:
 python detect.py --video yourvideo.mp4
 
 3️⃣ Run the Tkinter GUI Application
+
 python "weapon detection with tkinter/weapondetectiontkinter.py"
+
 
 
 The GUI allows you to:
@@ -69,6 +91,7 @@ The GUI allows you to:
 ▶ Get sound alerts
 
 ▶ Receive email alerts with the detected frame
+
 
 🧠 How the Detection Works
 
@@ -88,7 +111,9 @@ The GUI allows you to:
 
 This makes the system accurate and fast for real-time usage.
 
+
 🔊 Alert System (Sound + Email)
+
 ✔ Sound Alert
 
 A loud alert sound plays when a weapon is detected
@@ -105,6 +130,7 @@ When a weapon is detected:
 
 📝 Includes a warning message
 
+
 This is useful for:
 
 Schools
@@ -117,6 +143,7 @@ Security rooms
 
 Remote monitoring
 
+
 📸 Example Output
 
 ✔ Weapon detected → highlighted with red box
@@ -126,6 +153,7 @@ Remote monitoring
 ✔ Email alert sent
 
 ✔ Frame saved for evidence
+
 
 🛠️ Requirements
 
@@ -145,6 +173,7 @@ Install pygame if missing:
 
 pip install pygame
 
+
 🎯 Why This Project Is Useful
 
 ✔ Real-time monitoring & surveillance
@@ -156,6 +185,7 @@ pip install pygame
 ✔ Beginner-friendly and easy to extend
 
 ✔ Perfect for academic projects and demonstrations
+
 
 📄 License
 
