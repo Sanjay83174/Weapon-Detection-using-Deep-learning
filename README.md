@@ -6,17 +6,21 @@ This system can be used for CCTV monitoring, safety systems, and real-time alert
 
 📌 What This Project Does
 
-Detects guns and knives
+✔ Detects guns
 
-Works with webcam or video file
+✔ Detects knives
 
-Draws bounding boxes around detected weapons
+✔ Works with webcam or video file
 
-Includes a Tkinter GUI for easy use
+✔ Draws bounding boxes around detected weapons
 
-Supports sound alert + email alert
+✔ Includes a Tkinter GUI for easy usage
 
-Saves the detected frame for evidence
+✔ Plays sound alerts when weapon is detected
+
+✔ Sends email alerts with the captured frame
+
+✔ Saves the detection frame for evidence
 
 📂 Project Structure
 Weapon-Detection-using-Deep-learning
@@ -34,97 +38,94 @@ Weapon-Detection-using-Deep-learning
 
 🖥️ How to Run the Project
 1️⃣ Install Required Libraries
-pip install opencv-python numpy pygame smtplib
+pip install opencv-python numpy pygame
 
 
-(If using PyTorch/TensorFlow, install that too.)
+If email alert uses SMTP, it is built-in with Python.
 
 2️⃣ Run Detection (Without GUI)
 
-Webcam:
+Run using webcam:
 
 python detect.py
 
 
-Video file:
+Run using a video file:
 
 python detect.py --video yourvideo.mp4
 
-3️⃣ Run the Tkinter GUI
+3️⃣ Run the Tkinter GUI Application
 python "weapon detection with tkinter/weapondetectiontkinter.py"
 
 
-This GUI allows you to:
+The GUI allows you to:
 
-Start webcam
+▶ Start webcam
 
-Select video
+▶ Upload a video
 
-View detection results
+▶ View live weapon detection
 
-Get sound alerts
+▶ Get sound alerts
 
-Get email alerts with captured image
+▶ Receive email alerts with the detected frame
 
 🧠 How the Detection Works
 
-Uses a YOLO-based deep learning model
+🔸 Uses YOLO-based Deep Learning model
 
-Processes every video frame
+🔸 Processes the video frame-by-frame
 
-Detects:
+🔸 Detects:
 
-Gun
+🔫 Gun
 
-Knife
+🔪 Knife
 
-Draws colored bounding boxes
+🔸 Draws colored bounding boxes
 
-Shows confidence percentage
+🔸 Displays confidence score
+
+This makes the system accurate and fast for real-time usage.
 
 🔊 Alert System (Sound + Email)
+✔ Sound Alert
 
-When a weapon is detected, the system can:
+A loud alert sound plays when a weapon is detected
 
-✔ Play a sound alert
+Helps in real-time warning for nearby staff
 
-Useful for immediate onsite warning.
+✔ Email Alert
 
-✔ Send an email alert automatically
+When a weapon is detected:
 
-The email contains:
+📤 An automatic email is sent
 
-A short warning message
+🖼️ The email contains the captured frame of the weapon
 
-A captured image of the frame where the weapon is detected
+📝 Includes a warning message
 
-This feature is helpful for:
+This is useful for:
 
-Security rooms
+Schools
 
 Colleges
 
 Offices
 
-Real-time monitoring systems
+Security rooms
 
-You can configure:
-
-Sender email
-
-Receiver email
-
-Email subject and message
+Remote monitoring
 
 📸 Example Output
 
-Gun detected → red box
+✔ Weapon detected → highlighted with red box
 
-Knife detected → red box
+✔ Label + confidence percentage displayed
 
-Label + confidence score displayed
+✔ Email alert sent
 
-Alert immediately triggered
+✔ Frame saved for evidence
 
 🛠️ Requirements
 
@@ -136,27 +137,26 @@ NumPy
 
 Tkinter (comes with Python)
 
-Pygame (for sound)
+Pygame (for alert sound)
 
-smtplib / email library (Python’s built-in email sending library)
+smtplib / email library for sending alerts
 
-Install pygame if needed:
+Install pygame if missing:
 
 pip install pygame
 
 🎯 Why This Project Is Useful
 
-Real-time safety monitoring
+✔ Real-time monitoring & surveillance
 
-Helps in surveillance
+✔ Helps prevent dangerous situations
 
-Includes Email Alert System for immediate remote notification
+✔ Sends remote alerts via email
 
-Easy for students and developers to understand
+✔ Beginner-friendly and easy to extend
 
-Can be expanded into a full security product
+✔ Perfect for academic projects and demonstrations
 
 📄 License
 
 This project is open for learning, development, and improvements.
-
