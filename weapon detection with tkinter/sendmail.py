@@ -7,12 +7,12 @@ from email.mime.base import MIMEBase  # New line
 from email import encoders  # New line
 
 # User configuration
-sender_email = 'shivakumarkrappu@gmail.com'
-sender_name = 'shivakumar'
-password = 'geeurhrlrhucbfav'
+sender_email = 'example@gmail.com'
+sender_name = 'your_name'
+password = 'password'
 
-receiver_emails = ['hlsanjay831@gmail.com']
-receiver_names = ['sanjay']
+receiver_emails = ['example1@gmail.com']
+receiver_names = ['your_name1']
 
 # Email body
 #email_html = open('email.html')
@@ -68,3 +68,4 @@ def sendalert():
                         print('Closing the server...')
                         print('email sent')
                         server.quit()
+
